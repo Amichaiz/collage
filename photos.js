@@ -15,7 +15,7 @@ function change() {
     let photos = document.querySelectorAll("img")
     let i=1
     photos.forEach(e=>{
-        e.src=`${a}\\${i}.jpg`
+        e.src=`file:///${a}\\${i}.jpg`
         i++;
     })
 }
